@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<style>
+    img{
+        border-radius: 10px;
+    }
+</style>
+
+<table style="width:100%; background-color:royalblue" class="table table-bordered">
+    <tr>
+        <th><img src="static/images/download.jpg" /></th>
+        <th><img src="static/images/GetImage.jpg" width="80%" /></th>
+        <th><img src="static/images/d57ffb00-7651-4ffa-a346-1a509d9fdd0f.jpg" width="60%" /></th>
+    </tr>
+    <tr>
+        <td><img src="static/images/cf44ed.jpg" width="60%" /></td>
+        <td><img src="static/images/images.jpg" width="90%"/></td>
+        <td><img src="static/images/455936.webp" width="60%" /></td>
+    </tr>
+
+</table>
+
+{% endblock %}
